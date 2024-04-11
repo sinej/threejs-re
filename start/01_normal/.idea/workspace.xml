@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dc54efc-4f32-4537-a685-b3a4945aa67b" name="Changes" comment="" />
+    <list default="true" id="4dc54efc-4f32-4537-a685-b3a4945aa67b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../basic/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../basic/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../basic/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../basic/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module_basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../module_basic/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1
@@ -22,6 +32,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/eunji/Documents/workspace/three-re/start/01_normal",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
