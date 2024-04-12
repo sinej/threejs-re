@@ -45,13 +45,22 @@ export default function example() {
 
   // 그리기
 
-  const clock = new THREE.Clock();
+  let time = Date.now();
+
   function draw() {
+    const newTime = Date.now();
+    const deltaTime = newTime - time;
+    time = newTime;
     // 경과된 시간 값을 가지고 있음.
-    const time = clock.getElapsedTime();
+    // const time = clock.getElapsedTime();
+    // const delta = clock.getDelta(); // draw 실행될때마다 시간차
+
     // mesh.rotation.y += THREE.MathUtils.degToRad(1);
-    mesh.rotation.y = 10 * time
-    mesh.position.y += 0.01;
+    // mesh.rotation.y += 2 * delta
+    // mesh.position.y += delta;
+
+    mesh.rotation.y += deltaTime * 0.0005;
+    mesh.position.y += deltaTime * 0.0001;
 
     if (mesh.position.y > 3) {
       mesh.position.y = 0;
